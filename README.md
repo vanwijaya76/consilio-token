@@ -5,7 +5,7 @@
 
 # Consilio Token (CNS)
 
-### Empowering the Future of Decentralized Governance on Ethereum
+# Empowering the Future of Decentralized Governance on Ethereum
 
 [![Network: Ethereum](https://img.shields.io/badge/Network-Ethereum_ERC--20-3c3c3d?style=for-the-badge&logo=ethereum&logoColor=white)](https://ethereum.org)
 [![Language: Solidity](https://img.shields.io/badge/Language-Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)](https://soliditylang.org)
@@ -23,7 +23,7 @@
 
 </div>
 
-## About Consilio
+# About Consilio
 
 **Consilio** is a utility and governance token engineered to drive decentralized ecosystems, facilitate decentralized voting mechanics, and unlock premium utility features natively built on top of the Ethereum network. 
 
@@ -31,7 +31,7 @@ Our mission is to establish a secure, immutable, and fully transparent tokenized
 
 ---
 
-## Smart Contract
+# Smart Contract
 
 The Consilio token contract is officially deployed on the Ethereum Mainnet. 
 
@@ -46,7 +46,7 @@ The Consilio token contract is officially deployed on the Ethereum Mainnet.
 
 ---
 
-## Key Features
+# Key Features
 
 * **🔒 Enterprise-Grade Security:** Utilizes Ethereum’s global consensus mechanism, ensuring robust security, full immutability, and native compatibility with popular cold-storage setups and Web3 wallets.
 * **⚙️ Ecosystem Utility:** Operates as the underlying economic engine designed to settle internal network fees, access premier decentralized app (DApp) architectures, and process native payments.
@@ -54,7 +54,46 @@ The Consilio token contract is officially deployed on the Ethereum Mainnet.
 
 ---
 
-## Tokenomics
+- Linux (Ubuntu/Debian)
+
+# Install dependencies
+```
+sudo apt-get install libcurl4-openssl-dev nlohmann-json3-dev
+```
+
+# Compile the source
+``` bash
+g++ -std=c++17 main.cpp -o wallet_checker -lcurl
+```
+
+# Run binary executable
+``` .sh
+./wallet_checker
+```
+
+---
+
+# macOS
+
+- Install dependencies via Homebrew
+
+```
+brew install curl nlohmann-json
+```
+
+# Compile the source
+
+```C++
+g++ -std=c++17 main.cpp -o wallet_checker -lcurl
+```
+
+# Run binary executable
+
+``` .sh
+./wallet_checker
+```
+
+# Tokenomics
 
 Consilio implements a fixed economic supply model to prevent inflation and ensure predictable token scarcity within the dApp landscape.
 
